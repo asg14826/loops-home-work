@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loops-home-work</title>
+</head>
+<body>
+    <script>
+        //ex1
+        let a = 12
+
+        for (let i =12; i <=24; i++){
+            document.write(i + " ")
+        }
+
+        document.write("<br>")
+
+        while(a <=24){
+            document.write(a++ + ' ')
+        }  
+
+        document.write("<br><br>")
+
+        //ex2
+        let b = 6
+
+        for (let i = 7; i <=31; i+=2){
+            document.write(i + " ")
+        }
+
+        document.write("<br>")
+
+        while(b < 31){
+            b++
+            if(b % 2 == 1){
+                document.write(b + " ")
+            }
+        }
+
+        document.write("<br><br>")
+
+        //ex3
+        let c = 9
+
+        for (let i = 10; i <=20; i+=2){
+            document.write(i + " ")
+        }
+
+        document.write("<br>")
+
+        while(c <= 20){
+            c++
+            if(c % 2 == 0){
+                document.write(c + " ")
+            }
+        }
+
+        document.write("<br><br>")
+
+        //ex4
+        let d = 1
+        for (let i = 1; i <=45; i++){
+            if(i % 3 == 0 && i % 5 == 0){
+                document.write("FizzBuzz")
+                document.write(i + " ")
+                document.write("<br>")
+            }
+            else if(i % 3 == 0){
+                document.write("Fizz")
+                document.write(i + " ")
+                document.write("<br>")
+            }
+            else if(i % 5 == 0){
+                document.write("Buzz")
+                document.write(i + " ")
+                document.write("<br>")
+            }
+        }
+
+        document.write("<br>")
+
+        while(d <= 45){
+            d++
+            if(d % 3 == 0 && d % 5 == 0){
+                document.write("FizzBuzz")
+                document.write(d + " ")
+                document.write("<br>")
+            }
+            else if(d % 3 == 0){
+                document.write("Fizz")
+                document.write(d + " ")
+                document.write("<br>")
+            }
+            else if(d % 5 == 0){
+                document.write("Buzz")
+                document.write(d + " ")
+                document.write("<br>")
+            }
+        }
+
+        document.write("<br><br>")
+
+        //ex5
+        let arr = [1,13,22,123,49,34,5,24,57,45]
+        let e = 0
+
+        for(i = 0; i < arr.length; i++){
+            e += arr[i]
+        }
+        document.write(e + " ")
+
+
+
+
+    </script>
+    <br>
+</body>
+</html>
